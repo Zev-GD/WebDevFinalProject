@@ -20,3 +20,43 @@ for (let i = 0; i < totalRecipes; i++) {
         link.appendChild(img);
         cell.appendChild(link);
 }
+
+
+const recipeName = document.getElementById('recipeName');
+const recipeImage = document.getElementById('recipeImage');
+const recipeLink = document.getElementById('recipeLink');
+const button = document.getElementById('randomButton');
+
+let recipes = [];
+
+fetch("https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/main/recipes.json") 
+    .then(res => res.json())
+    .then(data => {
+        recipes = data;
+        showRandomRecipe();
+       
+    })
+    .catch(err => { 
+        recipeName.textContent = 'Could not load recipe.';
+        console.error(err); 
+    });
+
+
+function showRandomRecipe() {
+    if (recipes.length == 0) {
+        return;
+    }
+    
+    const randomIndex = Math.floor(Math.random() * recipes.length);
+
+
+    const selected = recipes[randomIndex];
+    recipeName.textContent = selected.name;
+    recipeImage.src = selected.image;
+    recipeImage.alt = selected.name;
+    recipeLink.href = selected.link;
+
+
+   
+}
+button.addEventListener('click', showRandomRecipe);

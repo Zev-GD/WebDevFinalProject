@@ -35,5 +35,23 @@
         "link": "recipe6.html",
         "recipeID": 6
 
+    },
+    {
+        "name": "Molasses Cookies",
+        "image": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/main/Images/recipe7.png",
+        "link": "recipe7.html",
+        "recipeID": 8
+    },
+    {
+        "name": "Kale Harvest Bowl",
+        "image": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/main/Images/recipe8.png",
+        "link": "recipe8.html",
+        "recipeID": 8
+    },
+    {
+        "name": "Kale Harvest Bowl",
+        "image": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/main/Images/recipe7.png",
+        "link": "recipe7.html",
+        "recipeID": 9
     }
 ]

@@ -121,6 +121,8 @@ img {
 
 #headerimg {
     border: 2px solid rgb(99, 128, 139);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {

@@ -122,6 +122,19 @@ img {
 #headerimg {
     border: 2px solid rgb(99, 128, 139);
 }
+
+@media (max-width: 768px) {
+    #headerimg {
+        width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    #headerimg {
+        width: 200px;
+    }
+}
+
 .source-link {
     display: block;
     text-align: center;

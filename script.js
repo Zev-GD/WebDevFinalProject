@@ -3,7 +3,7 @@ const table = document.getElementById("recipeTable");
 
 if (table) {
 
-let totalRecipes = 6;
+let totalRecipes = 9;
 let columns = 3;
 
 for (let i = 0; i < totalRecipes; i++) {

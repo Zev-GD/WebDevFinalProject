@@ -63,3 +63,4 @@ function showRandomRecipe() {
 
    
 }
+button.addEventListener("click", showRandomRecipe)

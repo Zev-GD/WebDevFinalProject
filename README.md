@@ -1,4 +1,4 @@
-Project title: Recipe Book
+Project title: Recipe Book.
 This project is a collection of some of my favorite recipes. 
 I worked alone for this project.
 Javascript is used for both creation of the table on the browse page, and for the random recipe button.

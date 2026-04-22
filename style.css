@@ -133,6 +133,7 @@ img {
 
 h2 {
     color: rgb(99, 128, 139);
+    text-align: center;
 }
 
 h3 {
@@ -147,8 +148,16 @@ label:has(input:checked) {
 }
 
 .ingredients {
-    justify-content: center;
-    display: flex;
+    flex: 1;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 20px;
+    text-align: left;
+}
+
+.instructions {
+    flex: 1;
+    padding: 10px;
     margin-top: 20px;
     gap: 20px;
 }
@@ -209,4 +218,13 @@ fieldset {
     text-align: left;
     margin: 10px;
     line-height: 35px;
+}
+
+.flex-column{
+    display: flex
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
 }

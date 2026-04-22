@@ -49,9 +49,9 @@
         "recipeID": 8
     },
     {
-        "name": "Kale Harvest Bowl",
-        "image": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/main/Images/recipe7.png",
-        "link": "recipe7.html",
+        "name": "Ramen",
+        "image": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/main/Images/recipe9.png",
+        "link": "recipe9.html",
         "recipeID": 9
     }
 ]

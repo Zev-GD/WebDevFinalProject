@@ -1,37 +1,37 @@
 [
     {
-        "name": "Chocolate Chip Cookies",
-        "img": "recipe1.png",
+        "name": "Chocolate Chip Muffins",
+        "img": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/main/Images/recipe1.png",
         "link": "recipe1.html",
         "recipeID": 1
     },
     {
         "name": "Banana Bread",
-        "img": "recipe2.png",
+        "img": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/main/Images/recipe2.png",
         "link": "recipe2.html",
         "recipeID": 2
     },
     {
         "name": "Shakshuka",
-        "img": "recipe3.png",
+        "img": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/main/Images/recipe3.png",
         "link": "recipe3.html",
         "recipeID": 3
     },
     {
         "name": "Tostada",
-        "img": "recipe4.png",
+        "img": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/main/Images/recipe4.png",
         "link": "recipe4.html",
         "recipeID": 4
     },
     {
         "name": "Chana Masala",
-        "img": "recipe5.png",
+        "img": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/main/Images/recipe5.png",
         "link": "recipe5.html",
         "recipeID": 5
     },
     {
         "name": "Butternut Squash Mac and Cheese",
-        "img": "recipe6.png",
+        "img": "https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/main/Images/recipe6.png",
         "link": "recipe6.html",
         "recipeID": 6
 

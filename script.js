@@ -1,6 +1,8 @@
 
 const table = document.getElementById("recipeTable");
 
+if (table) {
+
 let totalRecipes = 6;
 let columns = 3;
 
@@ -20,7 +22,7 @@ for (let i = 0; i < totalRecipes; i++) {
         link.appendChild(img);
         cell.appendChild(link);
 }
-
+}
 
 const recipeName = document.getElementById('recipeName');
 const recipeImage = document.getElementById('recipeImage');
@@ -33,7 +35,6 @@ fetch("https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/ma
     .then(res => res.json())
     .then(data => {
         recipes = data;
-        showRandomRecipe();
        
     })
     .catch(err => { 
@@ -43,10 +44,11 @@ fetch("https://raw.githubusercontent.com/Zev-GD/WebDevFinalProject/refs/heads/ma
 
 
 function showRandomRecipe() {
-    if (recipes.length == 0) {
+    if (recipes.length === 0) {
         return;
     }
     
+    const display = document.getElementById("randomdisplay");
     const randomIndex = Math.floor(Math.random() * recipes.length);
 
 
@@ -55,6 +57,8 @@ function showRandomRecipe() {
     recipeImage.src = selected.image;
     recipeImage.alt = selected.name;
     recipeLink.href = selected.link;
+
+    display.classList.remove('hide');
 
 
    

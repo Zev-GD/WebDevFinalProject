@@ -93,6 +93,10 @@ td img {
     }
 }
 
+.hide {
+    display: none;
+}
+
 button {
     padding: 10px 20px;
     margin: 5px;

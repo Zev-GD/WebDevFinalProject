@@ -182,3 +182,31 @@ ul {
 #recipeImage {
     border: 2px solid rgb(99, 128, 139);
 }
+
+.rating {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size:35px;
+    color:rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+    color:goldenrod;
+}
+
+fieldset {
+    text-align: left;
+    margin: 10px;
+    line-height: 35px;
+}
